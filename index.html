@@ -9,11 +9,14 @@
             <label for="numOfSides">How many sides is your Dice?</label>
             <input type="number" name="numOfSides" placeholder="6" autofocus>
 
-            <input type="button" id="rollButton" onclick="getResult()" value="Roll"></button>
+            <input type="button" class="button" onclick="getResult()" value="Roll"></input>
 
             <label>You rolled:</label>
-            <input id="result"></input>
+            <input type="text" name="result"></input>
+
+            <input type="button" class="button" onclick="reset()" value="Reset"></input>
     </form>
+
     </body>
     <script src="diceGame.js" defer></script>
 </html>

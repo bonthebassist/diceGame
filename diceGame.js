@@ -5,8 +5,12 @@
 
 function getResult() {
     let numOfSides = document.myForm.numOfSides.value;
+    if (numOfSides > 0) {
     let result= (Math.floor(Math.random()*numOfSides)+1);
-    document.getElementById("result").innerHTML = result;
+    document.myForm.result.value = result;
+    } else {
+        alert("Input sides of dice")
+    }
 }
 
 

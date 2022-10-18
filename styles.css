@@ -15,15 +15,16 @@ label, p {
 
 input {
     margin-left: 20px;
-    width: 20px;
-    height: 20px
+    width: 40px;
+    height: 40px
+    font-size: 20px;
+    display: block;
 }
 
-#rollButton {
+.button {
     width: 340px;
     height: 40px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 20px auto 20px 20px;
     border-radius: 10px;
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
