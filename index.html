@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>Roll the Dice!</h1>
+        <form name="myForm">
+            <label for="numOfSides">How many sides is your Dice?</label>
+            <input type="number" name="numOfSides" placeholder="6" autofocus>
+
+            <input type="button" class="button" onclick="getResult()" value="Roll"></input>
+
+            <label>You rolled:</label>
+            <input type="text" name="result"></input>
+
+            <input type="button" class="button" onclick="reset()" value="Reset"></input>
+    </form>
+
+    </body>
+    <script src="diceGame.js" defer></script>
+</html>

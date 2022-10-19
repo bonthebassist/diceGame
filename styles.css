@@ -1,0 +1,47 @@
+body {
+    background-color:lightgreen;
+} 
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+
+label, p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+
+}
+
+input {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: block;
+}
+
+
+
+.button {
+    width: 340px;
+    height: 40px;
+    margin: 20px auto 20px 20px;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkgreen;
+    color:white;
+}
+
+.button:hover {
+    background-color:darkseagreen;
+}
+
+.button:active {
+    background-color:rgb(164, 238, 164);
+}
+
+
+
+
